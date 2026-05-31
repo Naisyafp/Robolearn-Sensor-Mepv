@@ -1,0 +1,33 @@
+export const darkTheme = {
+  bg: "#0f0a1a",
+  bgCard: "#1a1025",
+  bgNav: "#150d22",
+  primary: "#a855f7",
+  secondary: "#ec4899",
+  accent: "#7c3aed",
+  text: "#f1f5f9",
+  textMuted: "#94a3b8",
+  border: "#2d1b4e",
+  gradient: "linear-gradient(135deg, #a855f7, #ec4899)",
+  gradientBg: "linear-gradient(135deg, #1a1025 0%, #0f0a1a 50%, #1a0f2e 100%)",
+  success: "#10b981",
+  warning: "#f59e0b",
+  danger: "#ef4444",
+}
+
+export const lightTheme = {
+  bg: "#fdf4ff",
+  bgCard: "#ffffff",
+  bgNav: "#ffffff",
+  primary: "#9333ea",
+  secondary: "#db2777",
+  accent: "#7c3aed",
+  text: "#1e1033",
+  textMuted: "#6b7280",
+  border: "#e9d5ff",
+  gradient: "linear-gradient(135deg, #9333ea, #db2777)",
+  gradientBg: "linear-gradient(135deg, #fdf4ff 0%, #fce7f3 50%, #ede9fe 100%)",
+  success: "#059669",
+  warning: "#d97706",
+  danger: "#dc2626",
+}

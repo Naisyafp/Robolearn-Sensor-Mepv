@@ -96,12 +96,9 @@ export default function App() {
       </nav>
 
       {/* PAGES */}
-      <div style={{ maxWidth: 1100, margin: "0 auto", padding: "24px 16px" }}>
-        {page === "home" && <Home setPage={setPage} t={t} />}
-        {page === "modul" && <Modul t={t} />}
-        {page === "kuis" && <Kuis poin={poin} setPoin={setPoin} t={t} />}
-        {page === "kamus" && <Kamus t={t} />}
-      </div>
-    </div>
-  )
-}
+<div style={{ maxWidth: 1100, margin: "0 auto", padding: "24px 16px" }}>
+  {page === "home" && <Home setPage={setPage} t={t} />}
+  {page === "modul" && <Modul t={t} onBack={() => setPage("home")} />}
+  {page === "kuis" && <Kuis poin={poin} setPoin={setPoin} t={t} onBack={() => setPage("home")} />}
+  {page === "kamus" && <Kamus t={t} onBack={() => setPage("home")} />}
+</div>
